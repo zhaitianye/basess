@@ -1,0 +1,20 @@
+{
+  "name": "basess",
+  "version": "1.0.2",
+  "description": "The base class library of CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaitianye/basess.git"
+  },
+  "keywords": [
+    "basess",
+    "base.css",
+    "base"
+  ],
+  "author": "zhaitianye",
+  "license": "MIT"
+}
