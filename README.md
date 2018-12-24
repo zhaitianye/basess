@@ -1,8 +1,9 @@
 # Basess
 
-<div align="left"><a href="https://github.com/zhaitianye/basess" target="_blank"><img width="400" src="./src/img/basess.png" alt="Vue logo"></a></div>
+<div align="left"><a href="https://github.com/zhaitianye/basess" target="_blank"><img width="400" src="./src/img/basess.png" alt="Basess logo"></a></div>
 
 [![NPM](https://nodei.co/npm/basess.png)](https://nodei.co/npm/basess/)
+
 [![NPM](https://nodei.co/npm-dl/basess.png)](https://nodei.co/npm/basess/)
 
 <h2 align="center">Supporting basess</h2>
@@ -14,8 +15,6 @@ Basess.css is an MIT-licensed open source project.If you like him, please recomm
 > [English](./README.md)
 
 > [简体中文](./README_zh-cn.md)
-
-[![](/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)](https://github.com/zhaitianye/basess/blob/master/src/css/basess.css)
 
 ## What is the Basess
 
