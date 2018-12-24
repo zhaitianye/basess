@@ -1,6 +1,6 @@
 {
   "name": "basess",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The base class library of CSS",
   "main": "index.js",
   "scripts": {
