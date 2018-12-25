@@ -208,7 +208,7 @@ opacity: 0;
 .family-tnr{font-family: "Times New Roman"}
 /*字体大小 加粗*/
 .f-w{font-weight: bolder}
-.f-11{font-size:11px;-webkit-transform:scale(0.8)}
+.f-11{font-size:11px;transform:scale(0.8); -webkit-transform:scale(0.8);-moz-transform:scale(0.8)}
 .f-12{font-size:12px}.f-12i{font-size:12px !important}.f-13{font-size: 13px}.f-13i{font-size: 13px !important}.f-14{font-size: 14px}.f-14i{font-size:14px !important}.f-16{font-size:16px}.f-16i{font-size:16px !important}.f-18{font-size:18px}.f-18i{font-size:18px !important}.f-20{font-size:20px}.f-20i{font-size:20px !important}.f-22{font-size:22px}.f-22i{font-size:22px !important}.f-24{font-size:24px}.f-24i{font-size:24px !important}.f-26{font-size:26px}.f-26i{font-size:26px !important}.f-28{font-size:28px}.f-28i{font-size:28px !important}.f-30{font-size:30px}.f-30i{font-size:30px !important}
 /* 编辑器文本调整*/
 .edit p{font-size:13px !important;text-indent:24px;margin-bottom:10px;letter-spacing:1px}

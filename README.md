@@ -28,4 +28,4 @@ Basess is a base class that contains a lot of styles that people use directly wh
 
 ## License
 
-> Copyright (c) 2015-present, zhaitianye
+> Copyright (c) 2018-present, zhaitianye
