@@ -7,58 +7,56 @@
 <!-- TOC -->
 
 - [Basess English document](#basess-english-document)
-    - [目录](#目录)
-    - [documentation](#documentation)
-    - [Use version selection and dependencies](#use-version-selection-and-dependencies)
-        - [PC端](#pc端)
-        - [mobile terminal](#mobile-terminal)
-        - [Projects that rely on bootstrapping or other responsive components](#projects-that-rely-on-bootstrapping-or-other-responsive-components)
-    - [solution](#solution)
-        - [style reset](#style-reset)
-        - [Grid system](#grid-system)
-        - [Clear float](#clear-float)
-        - [margin](#margin)
-            - [the PC version](#the-pc-version)
-            - [Mobile version](#mobile-version)
-        - [padding](#padding)
-            - [PC版本](#pc版本)
-            - [移动版本](#移动版本)
-        - [高度,宽度](#高度宽度)
-            - [PC版本](#pc版本-1)
-            - [移动版本](#移动版本-1)
-        - [行高](#行高)
-            - [PC版本](#pc版本-2)
-            - [移动版本](#移动版本-2)
-        - [圆角](#圆角)
-            - [PC版本](#pc版本-3)
-            - [移动版本](#移动版本-3)
-        - [宽度比例](#宽度比例)
-        - [常用阴影](#常用阴影)
-        - [链接](#链接)
-        - [下划线](#下划线)
-        - [边框](#边框)
-            - [PC版本](#pc版本-4)
-            - [移动版本增加](#移动版本增加)
-        - [字体字号](#字体字号)
-            - [PC版本](#pc版本-5)
-            - [移动版本](#移动版本-4)
-        - [堆叠](#堆叠)
-        - [颜色（常用前景色）](#颜色常用前景色)
-        - [背景颜色（常用背景色）](#背景颜色常用背景色)
-        - [浮动](#浮动)
-        - [文本对齐](#文本对齐)
-        - [文本截断](#文本截断)
-        - [翻转](#翻转)
-        - [定位](#定位)
-            - [定位方式](#定位方式)
-            - [定位距离](#定位距离)
-                - [PC版本](#pc版本-6)
-                - [移动版本](#移动版本-5)
-        - [超出操作](#超出操作)
-        - [鼠标手势](#鼠标手势)
-        - [块的显示方式](#块的显示方式)
-        - [常用图片尺寸](#常用图片尺寸)
-        - [常用遮罩](#常用遮罩)
+  - [目录](#%E7%9B%AE%E5%BD%95)
+  - [documentation](#documentation)
+  - [Use version selection and dependencies](#use-version-selection-and-dependencies)
+    - [PC端](#pc%E7%AB%AF)
+    - [mobile terminal](#mobile-terminal)
+    - [Projects that rely on bootstrapping or other responsive components](#projects-that-rely-on-bootstrapping-or-other-responsive-components)
+  - [solution](#solution)
+    - [style reset](#style-reset)
+    - [Grid system](#grid-system)
+    - [Clear float](#clear-float)
+    - [margin](#margin)
+      - [the PC version](#the-pc-version)
+    - [padding](#padding)
+      - [the PC version](#the-pc-version-1)
+      - [Mobile version](#mobile-version)
+    - [Height, width](#height-width)
+      - [the PC version](#the-pc-version-2)
+      - [Mobile version](#mobile-version-1)
+    - [line height](#line-height)
+      - [the PC version](#the-pc-version-3)
+      - [Mobile version](#mobile-version-2)
+    - [rounded corners](#rounded-corners)
+      - [the PC version](#the-pc-version-4)
+      - [Mobile version](#mobile-version-3)
+    - [Width ratio](#width-ratio)
+    - [is often shaded](#is-often-shaded)
+    - [link](#link)
+    - [the underline](#the-underline)
+    - [border](#border)
+      - [the PC version](#the-pc-version-5)
+      - [mobile version added](#mobile-version-added)
+    - [Font size](#font-size)
+      - [the PC version](#the-pc-version-6)
+      - [Mobile version](#mobile-version-4)
+    - [stack](#stack)
+    - [Color (common foreground color)](#color-common-foreground-color)
+    - [Background color (common background color)](#background-color-common-background-color)
+    - [floating](#floating)
+    - [Text alignment](#text-alignment)
+    - [Text truncated](#text-truncated)
+    - [flip](#flip)
+    - [to locate](#to-locate)
+      - [Location mode](#location-mode)
+        - [the PC version](#the-pc-version-7)
+    - [Mobile version](#mobile-version-5)
+    - [Out of action](#out-of-action)
+    - [Mouse gestures](#mouse-gestures)
+    - [How blocks are displayed](#how-blocks-are-displayed)
+    - [Commonly used picture size](#commonly-used-picture-size)
+    - [commonly used masks](#commonly-used-masks)
 
 <!-- /TOC -->
 
@@ -210,526 +208,514 @@ The raster system adopts the same specification as bootstarp. Please refer to th
 
 ### padding
 
-#### PC版本
-> 在PC版本上，用的是px，所以类和移动版本有所不同
-  * padding-top
-    * pt-0 代表：padding-top:0px
-    * pt-1 代表：padding-top:1px
-    * pt-2 代表：padding-top:2px
-    * pt-3 代表：padding-top:3px
-    * pt-4 代表：padding-top:4px
-    * pt-5 代表：padding-top:5px
-    * pt-6 代表：padding-top:6px
-    * pt-7 代表：padding-top:7px
-    * pt-8 代表：padding-top:8px
-    * pt-9 代表：padding-top:9px
-    * pt-10 代表：padding-top:10px
-    * pt-15 代表：padding-top:15px
-    * pt-20 代表：padding-top:20px
-    * pt-25 代表：padding-top:25px
-    * pt-30 代表：padding-top:30px
-    * pt-35 代表：padding-top:35px
-    * pt-40 代表：padding-top:40px
-    * pt-45 代表：padding-top:45px
-    * pt-50 代表：padding-top:50px
-    * pt-55 代表：padding-top:55px
-    * pt-60 代表：padding-top:60px
-  * padding-left
-    * pl-0 代表：padding-left:0px
-    * 其余使用同上
-  * padding-right
-    * pr-0 代表：padding-right:0px
-    * 其余使用同上
-  * padding-bottom
-    * pb-0 代表：padding-bottom:0px
-    * 其余使用同上
+#### the PC version
+  > USES px on the PC version, so the class is different from the mobile version
+  * padding - top
+    * pt-0 = : padding-top:0px
+    * pt-1 = padding-top:1px
+    * pt-2 = : padding-top:2px
+    * pt-3 = padding-top:3px
+    * pt-4 = padding-top:4px
+    * pt-5 = : padding-top:5px
+    * pt-6 = padding-top:6px
+    * pt-7 = padding-top:7px
+    * pt-8 = padding-top:8px
+    * pt-9 = padding-top:9px
+    * pt-10 = : padding-top:10px
+    * pt-15 = : padding-top:15px
+    * pt-20 means: padding-top:20px
+    * pt-25 = : padding-top:25px
+    * pt-30 = : padding-top:30px
+    * pt-35 = : padding-top:35px
+    * pt-40 = : padding-top:40px
+    * pt-45 = : padding-top:45px
+    * pt-50 = : padding-top:50px
+    * pt-55 = : padding-top:55px
+    * pt-60 = : padding-top:60px
+  * padding - left
+    * pl-0 means: padding-left:0px
+    * use the same as above for the rest
+  * padding - right
+    * pr-0 means: padding-right:0px
+    * use the same as above for the rest
+  * padding - bottom
+    * pb-0 = padding-bottom:0px
+    * use the same as above for the rest
   * padding
-    * pd-0 代表：padding:0px
-    * 其余使用同上
-#### 移动版本
-> 在手机版本上，用的全部是REM，使用类有些许变化,构建手机换请参阅 构建手机初始环境，
-  * padding-top
-    * rpt-0 代表：padding-top:0px
-    * rpt-2 代表：padding-top:2px
-    * rpt-5 代表：padding-top:5px
-    * rpt-8 代表：padding-top:8px
-    * rpt-10 代表：padding-top:10px
-    * rpt-12 代表：padding-top:12px
-    * rpt-15 代表：padding-top:15px
-    * rpt-18 代表：padding-top:18px
-    * rpt-20 代表：padding-top:20px
-    * rpt-25 代表：padding-top:25px
-    * rpt-30 代表：padding-top:30px
-    * rpt-35 代表：padding-top:35px
-    * rpt-40 代表：padding-top:40px
-    * rpt-45 代表：padding-top:45px
-    * rpt-50 代表：padding-top:50px
-    * rpt-60 代表：padding-top:60px
-    * rpt-70 代表：padding-top:70px
-    * rpt-80 代表：padding-top:80px
-    * rpt-90 代表：padding-top:90px
-    * rpt-100 代表：padding-top:100px
-    * rpt-110 代表：padding-top:110px
-    * 。。。。。以10px为间隔，一直到400px
-    * rpt-400 代表：padding-top:400px
-  * padding-left
-    * rpl-0 代表：padding-left:0px
-    * 其余使用同上
-  * padding-right
-    * rpr-0 代表：padding-right:0px
-    * 其余使用同上
-  * padding-bottom
-    * rpb-0 代表：padding-bottom:0px
-    * 其余使用同上
-  *  padding
-     * rpd-0 代表：padding:0px
-     * 其余使用同上
+    * pd-0 = : padding:0px
+    * use the same as above for the rest
 
-### 高度,宽度
+#### Mobile version
+> in mobile phone version, all REM is used. There are some changes in the use class. Please refer to the initial environment of building mobile phone.
+  * padding - top
+    * rpt-0 = : padding-top:0px
+    * rpt-2 = : padding-top:2px
+    * rpt-5 = : padding-top:5px
+    * rpt-8 = : padding-top:8px
+    * rpt-10 = : padding-top:10px
+    * rpt-12 means: padding-top:12px
+    * rpt-15 = : padding-top:15px
+    * rpt-18 means: padding-top:18px
+    * rpt-20 = : padding-top:20px
+    * rpt-25 = : padding-top:25px
+    * rpt-30 = : padding-top:30px
+    * rpt-35 = : padding-top:35px
+    * rpt-40 = : padding-top:40px
+    * rpt-45 = : padding-top:45px
+    * rpt-50 = : padding-top:50px
+    * rpt-60 = : padding-top:60px
+    * rpt-70 = : padding-top:70px
+    * rpt-80 = : padding-top:80px
+    * rpt-90 = : padding-top:90px
+    * rpt-100 = : padding-top:100px
+    * rpt-110 = : padding-top:110px
+    *...We're going to go 10px apart, all the way up to 400px
+    * rpt-400 = : padding-top:400px
+  * padding - left
+    * rpl -0 means: padding-left:0px
+    * use the same as above for the rest
+  * padding - right
+    * rpr -0 means: padding-right:0px
+    * use the same as above for the rest
+  * padding - bottom
+    * rpb-0 = : padding-bottom:0px
+    * use the same as above for the rest
+  * padding
+    * rpd-0 = : padding:0px
+    * use the same as above for the rest
 
-#### PC版本
-> 在PC版本上，用的是px，所以类和移动版本有所不同
+### Height, width
+#### the PC version
+> USES px on the PC version, so the class is different from the mobile version
   * height
-    * h-15 代表：height:15px
-    * h-20 代表：height:20px
-    * 以5递增到60。。。
-    * h-60 代表：height:60px
-#### 移动版本
-
-> 在手机版本上，用的全部是REM，使用类有些许变化,构建手机换请参阅 构建手机初始环境，
+    * h minus 15 stands for height:15px
+    * h minus 20 stands for height:20px
+    * increments by 5 to 60...
+    * h minus 60 stands for height:60px
+#### Mobile version
+> in mobile phone version, all REM is used. There are some changes in the use class. Please refer to the initial environment of building mobile phone.
   * height
-    * rh-0 代表：height:0px
-    * rh-2 代表：height:2px
-    * rh-5 代表：height:5px
-    * rh-8 代表：height:8px
-    * rh-10 代表：height:10px
-    * rh-12 代表：height:12px
-    * rh-15 代表：height:15px
-    * rh-18 代表：height:18px
-    * rh-20 代表：height:20px
-    * rh-25 代表：height:25px
-    * rh-30 代表：height:30px
-    * rh-35 代表：height:35px
-    * rh-40 代表：height:40px
-    * rh-45 代表：height:45px
-    * rh-50 代表：height:50px
-    * rh-60 代表：height:60px
-    * rh-70 代表：height:70px
-    * rh-80 代表：height:80px
-    * rh-90 代表：height:90px
-    * rh-100 代表：height:100px
-    * rh-110 代表：height:110px
-    * 。。。。。以10px为间隔，一直到400px
-    * rh-400 代表：height:400px
+    * rh-0 stands for height:0px
+    * rh-2 stands for height:2px
+    * rh-5 stands for height:5px
+    * rh-8 stands for height:8px
+    * rh-10 stands for height:10px
+    * rh-12 stands for: height:12px
+    * rh-15 stands for height:15px
+    * rh-18 stands for height:18px
+    * rh-20 stands for: height:20px
+    * rh-25 stands for: height:25px
+    * rh-30 stands for: height:30px
+    * rh-35 stands for height:35px
+    * rh-40 stands for: height:40px
+    * rh-45 stands for: height:45px
+    * rh-50 stands for: height:50px
+    * rh-60 stands for height:60px
+    * rh-70 represents: height:70px
+    * rh-80 stands for height:80px
+    * rh-90 stands for: height:90px
+    * rh-100 represents: height:100px
+    * rh-110 stands for height:110px
+    *...We're going to go 10px apart, all the way up to 400px
+    * rh-400 stands for: height:400px
   * width
-    * rw-0 代表：width:0px
-    * 。。。。。其他的同上
-    * rw-400 代表：width:400px
-### 行高
+    * rw minus 0 represents: width:0px
+    *...The others are the same as above
+    * rw-400 represents: width:400px
 
-#### PC版本
-> 在PC版本上，用的是px
-  * line-height
-    * line-h-15 代表：line-height:15px
-    * line-h-20 代表：line-height:20px
-    * 以5递增到60。。。
-    * line-h-60 代表：line-height:60px
-    * line-h-100s 代表: 行高100%
-    * line-h-150s 代表: 行高150%
-#### 移动版本
+### line height
+#### the PC version
+>on the PC version, USES px
+  * line - height
+    * line-h-15 represents: line-height:15px
+    * line-h-20 represents: line-height:20px
+    * increments by 5 to 60...
+    * line-h-60 represents: line-height:60px
+    * line-h-100s means: row height is 100%
+    * line-h-150s represents: 150% row height
+#### Mobile version
+>in the mobile version, USES REM
+  * line - height
+    * line-h-0 stands for line-height:0px
+    * line-h-2 stands for line-height:2px
+    * line-h-5 stands for line-height:5px
+    * line-h-8 stands for line-height:8px
+    * line-h-10 represents: line-height:10px
+    * line-h-12 stands for line-height:12px
+    * line-h-15 represents: line-height:15px
+    * line-h-18 represents: line-height:18px
+    * line-h-20 represents: line-height:20px
+    * line-h-25 represents: line-height:25px
+    * line-h-30 represents: line-height:30px
+    * line-h-35 represents: line-height:35px
+    * line-h-40 represents: line-height:40px
+    * line-h-45 represents: line-height:45px
+    * line-h-50 represents: line-height:50px
+    * line-h-60 represents: line-height:60px
+    * line-h-70 represents: line-height:70px
+    * line-h-80 stands for line-height:80px
+    * line-h-90 represents: line-height:90px
+    * line-h-100 represents: line-height:100px
+    * line-h-110 represents: line-height:110px
+    *...We're going to go 10px apart, all the way up to 400px
+    * line-h-400 represents: line-height:400px
 
-> 在手机版本上，用的全部是REM
-  * line-height
-    * rline-h-0 代表：line-height:0px
-    * rline-h-2 代表：line-height:2px
-    * rline-h-5 代表：line-height:5px
-    * rline-h-8 代表：line-height:8px
-    * rline-h-10 代表：line-height:10px
-    * rline-h-12 代表：line-height:12px
-    * rline-h-15 代表：line-height:15px
-    * rline-h-18 代表：line-height:18px
-    * rline-h-20 代表：line-height:20px
-    * rline-h-25 代表：line-height:25px
-    * rline-h-30 代表：line-height:30px
-    * rline-h-35 代表：line-height:35px
-    * rline-h-40 代表：line-height:40px
-    * rline-h-45 代表：line-height:45px
-    * rline-h-50 代表：line-height:50px
-    * rline-h-60 代表：line-height:60px
-    * rline-h-70 代表：line-height:70px
-    * rline-h-80 代表：line-height:80px
-    * rline-h-90 代表：line-height:90px
-    * rline-h-100 代表：line-height:100px
-    * rline-h-110 代表：line-height:110px
-    * 。。。。。以10px为间隔，一直到400px
-    * rline-h-400 代表：line-height:400px
 
-### 圆角
+### rounded corners
+#### the PC version
+> on the PC version, USES px
+  * border - the radius
+    * radius-0 represents: border-radius:0px
+    * radius-3 represents: border-radius:3px
+    * radius-5 represents border-radius:5px
+    * radius-10 represents: border-radius:10px
+    * radius-15 represents: border-radius:15px
+    * radius-20 represents: border-radius:20px
+    * radius-30 represents: border-radius:30px
+#### Mobile version
+> in the mobile version, USES REM
+  * border - the radius
+    * rradius-0 represents: border-radius:0px
+    * rradius-3 represents: border-radius:3px
+    * rradius-5 represents: border-radius:5px
+    * rradius-7 represents: border-radius:7px
+    * rradius-10 represents: border-radius:10px
+    * rradius-13 represents: border-radius:13px
+    * rradius-15 represents: border-radius:15px
+    * rradius-17 represents: border-radius:17px
+    * rradius-20 represents: border-radius:20px
+    * rradius-25 represents: border-radius:25px
+    * rradius-30 represents: border-radius:30px
 
-#### PC版本
-> 在PC版本上，用的是px
-  * border-radius
-  * radius-0 代表：border-radius:0px
-  * radius-3 代表：border-radius:3px
-  * radius-5 代表：border-radius:5px
-  * radius-10 代表: border-radius:10px
-  * radius-15 代表: border-radius:15px
-  * radius-20 代表: border-radius:20px
-  * radius-30 代表: border-radius:30px
-#### 移动版本
 
-> 在手机版本上，用的全部是REM
-  * border-radius
-  * rradius-0 代表：border-radius:0px
-  * rradius-3 代表：border-radius:3px
-  * rradius-5 代表：border-radius:5px
-  * rradius-7 代表：border-radius:7px
-  * rradius-10 代表：border-radius:10px
-  * rradius-13 代表：border-radius:13px
-  * rradius-15 代表：border-radius:15px
-  * rradius-17 代表：border-radius:17px
-  * rradius-20 代表：border-radius:20px
-  * rradius-25 代表：border-radius:25px
-  * rradius-30 代表：border-radius:30px
+### Width ratio
 
-### 宽度比例
-
-* full-w 代表：宽度100%;
-* full-h 代表：高度100%;
-* full-wh 代表：宽度和高度都是:100%
-
-### 常用阴影
-
-* shadow-rb 代表：右下方盒子阴影;
+* full-w represents: 100% width;
+* full-h represents: height 100%;
+* full-wh = : width and height :100%
   
-### 链接
+### is often shaded
 
-* inline-link 代表：增加一个下划线链接;
-
-### 下划线
-
-* t-none 代表：无下划线
-* t-through 代表：有下划线
-
-### 边框
-
-#### PC版本
-
-* 边框初始
-  * bor 代表：加一个边框
-* 边框颜色
-  * bor-col-pri 代表：颜色为 #00A5F7
-  * bor-col-red 代表：颜色为 #e3393c
-  * bor-col-orange 代表：颜色为 #orange
-  * bor-col-success 代表：颜色为 #5eb95e
-  * bor-col-ccc 代表：颜色为 #ccc
-  * bor-col-eb 代表：颜色为 #ebebeb
-  * bor-col-f2 代表：颜色为 #f2f2f2
-  * bor-col-eaf8ff 代表：颜色为 #eaf8ff
-* 边框粗细
-  * bor-2px 代表：粗细为 2px
-  * bor-2px 代表：粗细为 3px
-  * bor-2px 代表：粗细为 5px
-  * bor-2px 代表：粗细为 7px
-* 边框有无
-  * bor-t 代表: 只有上边框
-  * bor-r 代表: 只有右边框
-  * bor-b 代表: 只有下边框
-  * bor-l 代表: 只有左边框
-  * bor-t-none 代表: 上边框不显示
-  * bor-l-none 代表: 右边框不显示
-  * bor-r-none 代表: 下边框不显示
-  * bor-b-none 代表: 左边框不显示
-
-#### 移动版本增加
-
-* 边框粗细
-  * rbor-1px 代表：粗细为 1px
-  * rbor-2px 代表：粗细为 2px
-  * rbor-4px 代表：粗细为 4px
-  * rbor-6px 代表：粗细为 6px
-  * rbor-10px 代表：粗细为 10px
-  * rbor-15px 代表：粗细为 15px
-  * rbor-20px 代表：粗细为 20px
+* shadow-rb represents: box shadow at lower right;
   
-### 字体字号
+### link
 
-#### PC版本
+* inline-link means: add an underlined link;
 
-> 字体大小
+### the underline
 
-  * f-11 代表：字体大小为 11px（强制缩放）
-  * f-12 代表：字体大小为 12px
-  * f-13 代表：字体大小为 13px
-  * f-14 代表：字体大小为 14px
-  * f-16 代表：字体大小为 16px
-  * f-18 代表：字体大小为 18px
-  * f-20 代表：字体大小为 20px
-  * f-24 代表：字体大小为 24px
-  * f-26 代表：字体大小为 26px
-  * f-28 代表：字体大小为 28px
-  * f-30 代表：字体大小为 30px
+* t-none represents: no underscore
+* t-through means: underlined
+
+ 
+### border
+#### the PC version
+  * border initial
+    * bor stands for: add a border
+  * border color
+    * bor-col-pri represents: the color is #00A5F7
+    * bor-col-red represents: the color is #e3393c
+    * bor-col-orange is #orange
+    * bor-col-success represents: the color is #5eb95e
+    * bor-col-ccc represents: the color is # CCC
+    * bor-col-eb represents: the color is #ebebeb
+    * bor-col-f2 represents: the color is #f2f2f2
+    * bor-col-eaf8ff represents: the color is #eaf8ff
+  * border thickness
+    * bor-2px represents: the thickness is 2px
+    * bor-2px represents: the thickness is 3px
+    * bor-2px represents: the thickness is 5px
+    * bor-2px represents: the thickness is 7px
+  * whether there is border
+    * bor-t means: only the top border
+    * bor-r stands for: only the right border
+    * bor-b means: only the bottom border
+    * bor-l means: only the left border
+    * bor-t-none represents: the upper border is not displayed
+    * bor-l-none represents: the right border is not displayed
+    * bor-r-none represents: the lower border is not displayed
+    * bor-b-none represents: the left border is not displayed
+#### mobile version added
+  * border thickness
+    * rbor-1px represents: the thickness is 1px
+    * rbor-2px represents: the thickness is 2px
+    * rbor-4px represents: the thickness is 4px
+    * rbor-6px represents: the thickness is 6px
+    * rbor-10px represents: the thickness is 10px
+    * rbor-15px represents: 15px in thickness
+    * rbor-20px represents: the thickness is 20px
+
+### Font size
+#### the PC version
+
+* font size
+  * f-11 means: font size is 11px (forced scaling)
+  * f-12 represents: the font size is 12px
+  * f-13 represents: font size 13px
+  * f-14 represents: the font size is 14px
+  * f-16 represents: the font size is 16px
+  * f-18 represents: the font size is 18px
+  * f-20 represents: the font size is 20px
+  * f-24 represents: the font size is 24px
+  * f-26 represents: the font size is 26px
+  * f-28 represents: the font size is 28px
+  * f-30 represents: the font size is 30px
   
-> 强制字体大小
+* forces font size
+  * f-12i means: the font size is forced to be 12px
+  * f-13i stands for: font size is forced to 13px
+  * f-14i means: the font size is forced to be 14px
+  * f-16i represents: the font size is forced to 16px
+  * f-18i means: the font size is forced to be 18px
+  * f-20i means: the font size is forced to be 20px
+  * f-24i means: the font size is forced to be 24px
+  * f-26i means: the font size is forced to be 26px
+  * f-28i means: the font size is forced to be 28px
+  * f-30i means: the font size is forced to be 30px
+* bold
+  * f-w stands for: bold font
 
-  * f-12i 代表：字体大小强制为 12px
-  * f-13i 代表：字体大小强制为 13px
-  * f-14i 代表：字体大小强制为 14px
-  * f-16i 代表：字体大小强制为 16px
-  * f-18i 代表：字体大小强制为 18px
-  * f-20i 代表：字体大小强制为 20px
-  * f-24i 代表：字体大小强制为 24px
-  * f-26i 代表：字体大小强制为 26px
-  * f-28i 代表：字体大小强制为 28px
-  * f-30i 代表：字体大小强制为 30px
 
-> 加粗
-
-  * f-w 代表：字体加粗   
-
-#### 移动版本
-
-  * rf-20 代表：字体大小为 20px
-  * rf-22 代表：字体大小为 22px
-  * rf-24 代表：字体大小为 24px
-  * rf-26 代表：字体大小为 26px
-  * rf-28 代表：字体大小为 28px
-  * rf-30 代表：字体大小为 30px
-  * rf-32 代表：字体大小为 32px
-  * rf-34 代表：字体大小为 34px
-  * rf-36 代表：字体大小为 36px
-  * rf-38 代表：字体大小为 38px
-  * rf-40 代表：字体大小为 40px
-  * rf-45 代表：字体大小为 45px
-  * rf-50 代表：字体大小为 50px
-  * 。。。。之后都以5为间距到150px
-  * rf-150 代表：字体大小为 150px
+#### Mobile version
+  * rf-20 represents: font size is 20px
+  * rf-22 represents: font size 22px
+  * rf-24 represents: font size is 24px
+  * rf-26 represents: the font size is 26px
+  * rf-28 represents: the font size is 28px
+  * rf-30 represents: font size is 30px
+  * rf-32 represents: font size 32px
+  * rf-34 represents: font size 34px
+  * rf-36 represents: the font size is 36px
+  * rf-38 represents: the font size is 38px
+  * rf-40 represents: font size 40px
+  * rf-45 represents: the font size is 45px
+  * rf-50 represents: font size is 50px
+  *...And then they're all spaced 5 apart to 150px
+  * rf-150 represents: font size 150px
   
-### 堆叠
+### stack
 
-  * z-0 代表：堆叠为0
-  * z-9 代表：堆叠为9
-  * z-99 代表：堆叠为99
-  * z-999 代表：堆叠为999
-  * z-9999 代表：堆叠为9999
-  * z-99999 代表：堆叠为99999
+  * z minus 0 means: the stack is 0
+  * z-9 represents: the stack is 9
+  * z-99 represents: the stack is 99
+  * z-999 means: the stack is 999
+  * z-9999 represents: the stack is 9999
+  * z-99999 means: the stack is 99999
 
-### 颜色（常用前景色）
 
-  * col-primary 代表：颜色为00ADEB
-  * col-success 代表：颜色为5eb95e
-  * col-danger 代表：颜色为dd514c
-  * col-warning 代表：颜色为f37b1d
-  * col-error 代表：颜色为c00
-  * col-333 代表：颜色为333
-  * col-555 代表：颜色为555
-  * col-666 代表：颜色为666
-  * col-999 代表：颜色为999
-  * col-ccc 代表：颜色为ccc
-  * col-red 代表：颜色为e3393c
-  * col-green 代表：颜色为72c02c
-  * col-white 代表：颜色为white
-  * col-black 代表：颜色为black
-  * col-orange 代表：颜色为orange
-  * col-h-blue 代表：颜色为003368
+### Color (common foreground color)
 
-### 背景颜色（常用背景色）
+  * col-primary represents: color 00ADEB
+  * col-success is for: color 5eb95e
+  * col-danger represents dd514c
+  * col-warning refers to f37b1d
+  * col-error means: color is c00
+  * col-333 is col 333 in colour
+  * col-555 is col 555 in colour
+  * col-666 is col-666 in colour
+  * col-999 is 999 in colour
+  * col- CCC representative: color is CCC
+  * col-red for e3393c
+  * col-green for: 72c02c
+  * col-white represents: the color is white
+  * col-black is col-black
+  * col-orange is for 'orange'
+  * col-h-blue col-h-blue is 003368
 
-  * bg-primary 代表：背景颜色为00ADEB
-  * bg-white 代表：背景颜色为fff
-  * bg-gray 代表：背景颜色为f5f5f5
-  * bg-999 代表：背景颜色为999
-  * bg-ddd 代表：背景颜色为ddd
-  * bg-black1 代表：背景颜色为e7e8eb
-  * bg-black2 代表：背景颜色为585f69
-  * bg-555 代表：背景颜色为555
-  * bg-black 代表：背景颜色为black
-  * bg-h-black 代表：背景颜色为444
-  * bg-h-blue 代表：背景颜色为003368
-  * bg-l-blue 代表：背景颜色为eaf8ff
-  * bg-red 代表：背景颜色为E12432
-  * bg-l-red 代表：背景颜色为fafafa
-  * bg-green 代表：背景颜色为72c02c
-  * bg-orange 代表：背景颜色为orange
 
-### 浮动
+### Background color (common background color)
 
-  * pull-left 代表：左浮动
-  * pull-right 代表：右浮动
+* bg-primary represents: the background color is 00ADEB
+* bg-white represents: the background color is FFF
+* bg-gray represents: the background color is f5f5f5
+* bg-999 means: the background color is 999
+* bg-ddd represents: the background color is DDD
+* bg-black1 represents: background color e7e8eb
+* bg-black2 represents: the background color is 585f69
+* bg-555 represents: the background color is 555
+* bg-black represents: the background color is black
+* bg-h-black represents: the background color is 444
+* bg-h-blue represents: the background color is 003368
+* bg-l-blue represents: the background color is eaf8ff
+* bg-red means: the background color is E12432
+* bg-l-red means: the background color is fafafa
+* bg-green means: the background color is 72c02c
+* bg-orange represents: the background color is orange
 
-### 文本对齐
 
-  * text-left 代表：左对齐
-  * text-right 代表：右对齐
-  * text-center 代表：居中
+### floating
 
-### 文本截断
+  * pull-left represents: left float
+  * pull-right means: right float
 
-  * text-overflow 代表：一行超出省略
-  * text-overflow-1 代表：一行直接截断
-  * text-line-1 代表：一行文字，多余超出省略
-  * text-line-2 代表：两行文字，多余超出省略
-  * text-line-4 代表：四行文字，多余超出省略
 
-### 翻转
+### Text alignment
 
-  * flipx 代表：水平翻转
-  * flipy 代表：垂直翻转
-  * rotate45 代表：顺时针旋转45度
-  * rotate90 代表：顺时针旋转90度
-  * rotate180 代表：顺时针旋转180度
-  * rotate270 代表：顺时针旋转270度
+  * text-left represents: left aligned
+  * text-right means right alignment
+  * text-center represents: center
+  
+### Text truncated
 
-### 定位
+* text-overflow means: a line that exceeds the ellipsis
+* text-overflow-1 means: a line is truncated directly
+* text-line-1 stands for: one line of text, more than one ellipsis
+* text-line-2 means: two lines of text, more than one ellipsis
+* text-line-4 stands for: four lines of text, more than omitted
+  
+### flip
 
-#### 定位方式
+* flipx stands for horizontal flip
+* flipy represents: vertical flip
+* rotate45 represents: 45 degrees clockwise rotation
+* rotate90 represents: rotate90 degrees clockwise
+* rotate180 represents: 180 degrees clockwise rotation
+* rotate270 represents: 270 degrees clockwise rotation
 
-  * 固定位置
-    * affix 代表固定的位置
-  * 绝对定位
-    * pos-a 代表绝对定位
-  * 相对定位
-    * pos-r 代表相对定位
 
-#### 定位距离
+### to locate
 
-##### PC版本
-> 在PC版本上，用的是px
-  * top
-    1. 正向
-       * t-0 代表：top : 0px
-       * t-1 代表：top : 1px
-       * t-2 代表：top : 2px
-       * t-3 代表：top : 3px
-       * t-4 代表：top : 4px
-       * t-5 代表：top : 5px
-       * t-7 代表：top : 7px
-       * t-10 代表：top : 10px
-    2. 反向
-       * t--1 代表：top : -1px
-       * t--2 代表：top : -2px
-       * t--3 代表：top : -3px
-       * t--4 代表：top : -4px
-       * t--5 代表：top : -5px
-  * left
-    1. 正向
-       * l-0 代表：left : 0px
-       * l-1 代表：left : 1px
-       * l-2 代表：left : 2px
-       * l-3 代表：left : 3px
-       * l-4 代表：left : 4px
-       * l-5 代表：left : 5px
-       * l-7 代表：left : 7px
-       * l-10 代表：left : 10px
-    2. 反向
-       * l--1 代表：left : -1px
-       * l--2 代表：left : -2px
-       * l--3 代表：left : -3px
-       * l--4 代表：left : -4px
-       * l--5 代表：left : -5px
-  * right
-    1. 正向
-       * r-0 代表：right : 0px
-       * r-1 代表：right : 1px
-       * r-2 代表：right : 2px
-       * r-3 代表：right : 3px
-       * r-4 代表：right : 4px
-       * r-5 代表：right : 5px
-       * r-7 代表：right : 7px
-       * r-10 代表：right : 10px
-    2. 反向
-       * r--1 代表：right : -1px
-       * r--2 代表：right : -2px
-       * r--3 代表：right : -3px
-       * r--4 代表：right : -4px
-       * r--5 代表：right : -5px
-  * bottom
-    1. 正向
-       * b-0 代表：bottom : 0px
-       * b-1 代表：bottom : 1px
-       * b-2 代表：bottom : 2px
-       * b-3 代表：bottom : 3px
-       * b-4 代表：bottom : 4px
-       * b-5 代表：bottom : 5px
-       * b-7 代表：bottom : 7px
-       * b-10 代表：bottom : 10px
-    2. 反向
-       * b--1 代表：bottom : -1px
-       * b--2 代表：bottom : -2px
-       * b--3 代表：bottom : -3px
-       * b--4 代表：bottom : -4px
-       * b--5 代表：bottom : -5px
+#### Location mode
 
-##### 移动版本
+  * fixed position
+  * affix represents a fixed location
+  * absolute positioning
+  * pos-a stands for absolute positioning
+  * relative positioning
+  * pos-r stands for relative positioning
+  
+####Locate the distance
+##### the PC version
+> on the PC version, USES px
 
-> 在手机版本上，用的全部是REM
-  * top
-    * rt-0 代表：top:0px
-    * rt-2 代表：top:2px
-    * rt-5 代表：top:5px
-    * rt-8 代表：top:8px
-    * rt-10 代表：top:10px
-    * rt-12 代表：top:12px
-    * rt-15 代表：top:15px
-    * rt-18 代表：top:18px
-    * rt-20 代表：top:20px
-    * rt-25 代表：top:25px
-    * rt-30 代表：top:30px
-    * rt-35 代表：top:35px
-    * rt-40 代表：top:40px
-    * rt-45 代表：top:45px
-    * rt-50 代表：top:50px
-    * rt-60 代表：top:60px
-    * rt-70 代表：top:70px
-    * rt-80 代表：top:80px
-    * rt-90 代表：top:90px
-    * rt-100 代表：top:100px
-    * rt-110 代表：top:110px
-    * 。。。。。以10px为间隔，一直到400px
-    * rt-400 代表：top:400px
-  * left
-    * rl-0 代表：left:0px
-    * 其余使用同上
-  * right
-    * rr-0 代表：right:0px
-    * 其余使用同上
-  * bottom
-    * rb-0 代表：bottom:0px
-    * 其余使用同上
+* top
+  1. positive
+      * t minus 0 is top: 0px
+      * t minus 1 is top: 1px
+      * t minus 2 is top: 2px
+      * t minus 3 is top: 3px
+      * t minus 4 is top: 4px
+      * t minus 5 is top: 5px
+      * t-7 represents top: 7px
+      * t-10 represents top: 10px
+  2. The reverse
+     * t--1 is top: -1px
+     * t--2 is top: -2px
+     * t--3 is top: -3px
+     * t--4 is top: -4px
+     * t--5 is top: -5px
+  
+* left
+  1. positive
+     * l-0 is left: 0px
+     * l-1 is left: 1px
+     * l-2 is left: 2px
+     * l-3 is left: 3px
+     * l-4 is left: 4px
+     * l-5 is left: 5px
+     * l-7 is left: 7px
+     * l-10 is left: 10px
+  2. The reverse
+     * l--1 is left: -1px
+     * l--2 is left: -2px
+     * l--3 is left: -3px
+     * l--4 is left: -4px
+     * l--5 is left: -5px
 
-### 超出操作
+* right
+  1. positive
+     * r minus 0 is right: 0px
+     * r minus 1 is right: 1px
+     * r minus 2 is right: 2px
+     * r-3 for right: 3px
+     * r-4 for right: 4px
+     * r-5 for right: 5px
+     * r-7 for right: 7px
+     * r-10 for right: 10px
+  2. The reverse
+     * r--1 is right: -1px
+     * r--2 is right: -2px
+     * r--3 is right: -3px
+     * r--4 is right: -4px
+     * r--5 is right: -5px
+  
+* bottom
+  1. positive
+     * b minus 0 is bottom: 0px
+     * b minus 1 for bottom: 1px
+     * b minus 2 is bottom: 2px
+     * b minus 3 is bottom: 3px
+     * b minus 4 is bottom: 4px
+     * b minus 5 for bottom: 5px
+     * b minus 7 for bottom: 7px
+     * b minus 10 for bottom: 10px
+  2. The reverse
+     * b--1 for bottom: -1px
+     * b--2 is bottom: -2px
+     * b--3 is bottom: -3px
+     * b--4 is bottom: -4px
+     * b--5 is bottom: -5px
 
-  * overflow-h 代表：超出部分隐藏
-  * overflow-v 代表：超出部分显示
-  * overflow-s 代表：超出部分滑动
-  * overflow-t 代表：默认的鼠标
+### Mobile version
+> in the mobile version, USES REM
+* top
+  * rt-0 is top:0px
+  * rt minus 2 is top:2px
+  * rt-5 is top:5px
+  * rt-8 is top:8px
+  * rt-10 stands for top:10px
+  * rt-12 is top:12px
+  * rt-15 stands for top:15px
+  * rt-18 is top:18px
+  * rt-20 represents top:20px
+  * rt-25 is top:25px
+  * rt-30 represents top:30px
+  * rt-35 is top:35px
+  * rt-40 is top:40px
+  * rt-45 represents: top:45px
+  * rt-50 means: top:50px
+  * rt-60 is top:60px
+  * rt-70 is top:70px
+  * rt-80 means: top:80px
+  * rt-90 is top:90px
+  * rt-100 is top:100px
+  * rt-110 is top:110px
+  *...We're going to go 10px apart, all the way up to 400px
+  * rt-400 = top:400px
+* left
+  * rl minus 0 is left:0px
+  * use the same as above for the rest
+* right
+  * rr-0 stands for right:0px
+  * use the same as above for the rest
+* bottom
+  * rb minus 0 for bottom:0px
+  * use the same as above for the rest
+### Out of action
+* overflow-h stands for: the part beyond is hidden
+* overflow-v stands for: the overflow part is displayed
+* overflow-s stands for: the overflow part slides
+* overflow-t is the default mouse
+### Mouse gestures
+* cur-p represents a mouse in the form of a finger
+* cur-h represents: mouse in the form of help
+* cur-a represents: an automatic mouse
+* cur-d represents the default mouse
+### How blocks are displayed
+* dis-b represents: in the form of displaying block elements
+* dis-n represents: hidden display
+* dis-i represents: in line
+* dis-ib represents: represented as inline block
 
-### 鼠标手势
-
-  * cur-p 代表：手指形式的鼠标
-  * cur-h 代表：帮助形式的鼠标
-  * cur-a 代表：自动形式的鼠标
-  * cur-d 代表：默认方式的鼠标
-
-### 块的显示方式
-
-  * dis-b 代表：表现形式为显示块状元素
-  * dis-n 代表：隐藏显示
-  * dis-i 代表：表现形式为行内
-  * dis-ib 代表：表现形式为内联块
-
-### 常用图片尺寸
-
-  * img-20 代表：宽高为20px的图片
-  * img-25 代表：宽高为25px的图片
-  * img-30 代表：宽高为30px的图片
-  * img-35 代表：宽高为35px的图片
-  * img-50 代表：宽高为50px的图片
-  * img-60 代表：宽高为60px的图片
-  * img-100 代表：宽高为100px的图片 
-
-### 常用遮罩
-
-  * rgba-30 代表：透明度为30的遮罩
-  * rgba-50 代表：透明度为50的遮罩
-  * rgba-70 代表：透明度为70的遮罩
+### Commonly used picture size
+  * img-20 represents an image with a width and height of 20px
+  * img-25 represents an image with a width and height of 25px
+  * img-30 represents an image with a width and height of 30px
+  * img-35 represents an image with a width and height of 35px
+  * img-50 represents an image with a width and height of 50px
+  * img-60 represents an image with a width and height of 60px
+  * img-100 represents an image with a width and height of 100px
+### commonly used masks
+  * rgba-30 represents a mask with transparency of 30
+  * rgba-50 represents a mask with transparency of 50
+  * rgba-70 represents a mask with transparency of 70
