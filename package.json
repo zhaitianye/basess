@@ -1,8 +1,8 @@
 {
   "name": "basess",
-  "version": "1.0.5",
-  "description": "The base class library of CSS",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "The Base class library of CSS",
+  "main": "./dist/basess.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,13 @@
     "base"
   ],
   "author": "zhaitianye",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.1.2",
+    "mini-css-extract-plugin": "^1.3.9",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "webpack": "^5.25.1"
+  }
 }
