@@ -10,21 +10,15 @@
 
 Basess.css is an MIT-licensed open source project.If you like him, please recommend him to your friends and thumb up on github.
 
-## Language version
+## The API documentation
 
-> [English](./README.md)
+> [v1](./doc/v1/API_English.md)
 
-> [简体中文](./README_zh-cn.md)
 
 ## What is the Basess
 
 Basess is a base class that contains a lot of styles that people use directly when writing pages.Not having to write much CSS makes development easier.
 
-## The API documentation
-
-> [English API](./doc/API_English.md)
-
-> [中文文档](./doc/API_Chinese.md)
 
 ## License
 

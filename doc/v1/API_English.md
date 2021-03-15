@@ -64,6 +64,8 @@
 
 Basess Is a basic set of styles, types, and componentization used with BootStrap.But it is smaller, simpler and more powerful than BootStrap.
 
+[English](./API_English.md) [中文](./API_Chinese.md)
+
 ## Use version selection and dependencies
 
 ### PC端
