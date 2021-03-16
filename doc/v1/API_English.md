@@ -1,16 +1,16 @@
-# Basess English document
+# Basess English document(v1)
 
-<div align="left"><a href="https://github.com/zhaitianye/basess" target="_blank"><img width="400" src="../src/img/basess.png" alt="Basess logo"></a></div>
+<div align="left"><a href="https://github.com/zhaitianye/basess" target="_blank"><img width="400" src="../../src/img/basess.png" alt="Basess logo"></a></div>
 
 ## 目录
 
 <!-- TOC -->
 
-- [Basess English document](#basess-english-document)
-  - [目录](#%E7%9B%AE%E5%BD%95)
+- [Basess English document(v1)](#basess-english-documentv1)
+  - [目录](#目录)
   - [documentation](#documentation)
   - [Use version selection and dependencies](#use-version-selection-and-dependencies)
-    - [PC端](#pc%E7%AB%AF)
+    - [PC端](#pc端)
     - [mobile terminal](#mobile-terminal)
     - [Projects that rely on bootstrapping or other responsive components](#projects-that-rely-on-bootstrapping-or-other-responsive-components)
   - [solution](#solution)

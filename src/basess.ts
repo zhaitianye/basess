@@ -1,9 +1,11 @@
-// 引入basess
+// 移动端rem等比适配配置文件
 import './basess.css'
 
-// 移动端rem等比适配配置文件
-// 设计稿宽度为375px，此值要与 postcss.config.js 文件中的 rootValue 对应
-export function setRem(baseWidth:number = 375) {
+/**
+ * 设计稿宽度为375px，此值要与 postcss.config.js 文件中的 rootValue 对应( 是rootValue的10倍 )
+ * @param { number } baseWidth 设计稿宽度,默认不传则为375
+ */
+export function setRem(baseWidth: number = 375) {
   const dpr = window.devicePixelRatio;
   const currentWidth: number = document.documentElement.clientWidth;
   let remSize: number = 0;
@@ -15,8 +17,11 @@ export function setRem(baseWidth:number = 375) {
   document.documentElement.setAttribute("data-dpr", `${dpr}`);
 }
 
-// 启动函数，设计稿默认宽度
-export default function start(designWidth:number) {
+/**
+ * 启动函数，设计稿默认宽度375
+ * @param { number } baseWidth 设计稿宽度,默认不传则为375
+ */
+export default function start(designWidth: number) {
   setRem(designWidth);
 
   // 改变窗口大小时重新设置 rem
