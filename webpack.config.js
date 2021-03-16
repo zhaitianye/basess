@@ -8,6 +8,16 @@ module.exports = {
   mode: "production",
   output: {
     filename: "basess.js",
+    library: {
+      name: 'Basess',
+      type: 'umd',
+      auxiliaryComment:{
+        root: 'Root Comment',
+        commonjs: 'CommonJS Comment',
+        commonjs2: 'CommonJS2 Comment',
+        amd: 'AMD Comment'
+      }
+    },
     path: path.resolve(__dirname, "./dist"),
   },
   module: {
