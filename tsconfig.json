@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*.ts", "test/test.ts"],
+  "exclude": ["node_modules"]
+}

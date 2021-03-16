@@ -1,13 +1,14 @@
 const path = require("path");
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
+const OptimizeCssAssetsWebpackPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
-  entry: "./src/js/basess.js",
+  entry: "./src/basess.ts",
+  mode: "production",
   output: {
-    filename:'basess.js',
-    path: path.resolve(__dirname, "dist")
+    filename: "basess.js",
+    path: path.resolve(__dirname, "./dist"),
   },
   module: {
     rules: [
@@ -17,8 +18,13 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader'
         ]
-      }
-    ]
+      },
+      {
+        test: /\.tsx?$/,
+        use: ["babel-loader", "ts-loader"],
+        exclude: [path.resolve(__dirname, "node_modules")],
+      },
+    ],
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -26,5 +32,5 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "basess.css",
     }),
-  ]
+  ],
 };
